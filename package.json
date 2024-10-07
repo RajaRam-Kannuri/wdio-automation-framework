@@ -1,0 +1,49 @@
+{
+  "name": "amc-autoframwork-wdio",
+  "description": "Test Automation suites for Astro applications",
+  "license": "ISC",
+  "author": "RajaRam Kannuri",
+  "scripts": {
+    "auditfix": "npm_config_yes=true npx yarn-audit-fix",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:prettier": "prettier --check .",
+    "lint": "npm run lint:js ; npm run lint:prettier",
+    "lintfix": "prettier --write --list-different . ; npm run lint:js -- --fix",
+    "spellcheck": "cspell lint --gitignore -u --no-progress .",
+    "test:app": "wdio Configurations/BrowserConfiguration.js"
+  },
+  "dependencies": {
+    "@slack/web-api": "^6.8.1",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "fs-extra": "^11.1.0",
+    "log4js": "^6.8.0",
+    "mocha": "^10.2.0",
+    "mocha-multi-reporters": "^1.5.1",
+    "randomstring": "^1.2.3",
+    "simple-excel-to-json": "^2.3.0",
+    "browserstack-local": "^1.5.2",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.3.5",
+    "@wdio/cli": "^8.3.10",
+    "@wdio/junit-reporter": "^8.4.0",
+    "@wdio/local-runner": "^8.3.10",
+    "@wdio/mocha-framework": "^8.3.0",
+    "@wdio/spec-reporter": "^8.3.0",
+    "@wdio/browserstack-service": "^8.9.0",
+    "allure-commandline": "^2.29.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "chromedriver": "^127.0.0",
+    "webdriverio": "^8.8.6",
+    "@babel/eslint-parser": "^7.19.1",
+    "cspell": "^6.28.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.8.0"
+  }
+}

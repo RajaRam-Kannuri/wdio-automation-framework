@@ -1,0 +1,7 @@
+module.exports = {
+    LONG_WAIT: 60000,
+    MEDIUM_WAIT: 30000,
+    SHORT_WAIT: 10000,
+    VERY_LONG_WAIT: 90000,
+    VERY_SHORT_WAIT: 5000,
+}

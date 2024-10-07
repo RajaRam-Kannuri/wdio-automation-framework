@@ -1,0 +1,9 @@
+node_modules/
+videos/
+reports/
+results/
+screenshots/
+test-*.xml
+package-lock.json
+FailedScreenShots
+allure-Report/
