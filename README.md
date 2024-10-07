@@ -5,7 +5,7 @@
 This project is a web automation framework designed to perform various actions on web elements safely. It includes utilities for navigating web pages, interacting with elements, and verifying API responses.
 
 ## Project Structure
-
+```
 .
 ├── .gitignore
 ├── allure-Report/
@@ -26,6 +26,8 @@ This project is a web automation framework designed to perform various actions o
 ├── TestSuite/
 └── Utilities/
     └── safeActions.js
+
+```
 
 ## Key Components
 
