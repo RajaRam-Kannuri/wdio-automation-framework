@@ -65,7 +65,7 @@ The `safeActions.js` file provides various methods to interact with web elements
 
 1. Clone the repository:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/RajaRam-Kannuri/wdio-automation-framework
     ```
 
 2. Install dependencies:
@@ -78,3 +78,9 @@ The `safeActions.js` file provides various methods to interact with web elements
 To run the tests, use the following command:
 ```sh
 npm test
+
+**##Contributing**
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+**##License**
+This project is licensed under the MIT License.
