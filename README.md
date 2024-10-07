@@ -6,7 +6,7 @@ This project is a web automation framework designed to perform various actions o
 
 ## Project Structure
 ```
-.
+wdio-automaion-framework
 ├── .gitignore
 ├── allure-Report/
 ├── Configurations/
